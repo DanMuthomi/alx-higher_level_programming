@@ -31,7 +31,7 @@ class Square:
         """Return are of square"""
         return (self.__size * self.__size)
 
-    def my_prints(self):
+    def my_print(self):
         """Prints text to represent the square in # characters"""
         for i in range(0, self.__size):
             [print("#", end="") for j in range(self.__size)]
